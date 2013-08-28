@@ -1,0 +1,732 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1138.51">
+  <style type="text/css">
+    p.p1 {margin: 3.0px 0.0px 3.0px 0.0px; text-indent: 57.2px; font: 36.0px SimSun}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px 'Times New Roman'; min-height: 21.0px}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px SimSun}
+    p.p4 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 18.0px SimSun}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 18.0px 'Times New Roman'; min-height: 21.0px}
+    p.p6 {margin: 0.0px 0.0px 0.0px 0.0px; font: 10.5px 'Times New Roman'; min-height: 11.0px}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 18.0px SimSun; min-height: 21.0px}
+    p.p8 {margin: 0.0px 0.0px 0.0px 0.0px; font: 18.0px SimSun; min-height: 21.0px}
+    p.p9 {margin: 0.0px 0.0px 0.0px 0.0px; text-align: center; font: 18.0px 'Times New Roman'}
+    span.s1 {font: 36.0px Calibri}
+    span.s2 {letter-spacing: 0.0px}
+    span.s3 {font: 18.0px 'Times New Roman'; letter-spacing: 0.0px}
+    table.t1 {width: 522.4px; border-collapse: collapse}
+    table.t2 {width: 367.5px; border-style: solid; border-width: 0.8px 0.8px 0.8px 0.8px; border-color: #cbcbcb #cbcbcb #cbcbcb #cbcbcb; border-collapse: collapse}
+    table.t3 {width: 334.5px; border-style: solid; border-width: 0.8px 0.8px 0.8px 0.8px; border-color: #cbcbcb #cbcbcb #cbcbcb #cbcbcb; border-collapse: collapse}
+    td.td1 {width: 389.9px; border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #cbcbcb #cbcbcb #cbcbcb #cbcbcb; padding: 0.0px 5.0px 0.0px 5.0px}
+    td.td2 {border-style: solid; border-width: 1.0px 1.0px 1.0px 1.0px; border-color: #cbcbcb #cbcbcb #cbcbcb #cbcbcb; padding: 0.0px 5.0px 0.0px 5.0px}
+    td.td3 {width: 53.2px; border-style: solid; border-width: 0.8px 0.8px 0.8px 0.8px; border-color: #cbcbcb #cbcbcb #cbcbcb #cbcbcb; padding: 0.0px 5.0px 0.0px 5.0px}
+    td.td4 {width: 309.8px; border-style: solid; border-width: 0.8px 0.8px 0.8px 0.8px; border-color: #cbcbcb #cbcbcb #cbcbcb #cbcbcb; padding: 0.0px 5.0px 0.0px 5.0px}
+    td.td5 {width: 43.5px; border-style: solid; border-width: 0.8px 0.8px 0.8px 0.8px; border-color: #cbcbcb #cbcbcb #cbcbcb #cbcbcb; padding: 0.0px 5.0px 0.0px 5.0px}
+    td.td6 {width: 286.5px; border-style: solid; border-width: 0.8px 0.8px 0.8px 0.8px; border-color: #cbcbcb #cbcbcb #cbcbcb #cbcbcb; padding: 0.0px 5.0px 0.0px 5.0px}
+  </style>
+</head>
+<body>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td1">
+        <p class="p1">第一讲<span class="s1"><b>C</b></span>语言述</p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td2">
+        <p class="p2"><span class="s2"></span><br></p>
+      </td>
+    </tr>
+    <tr>
+      <td valign="middle" class="td2">
+        <p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>引<span class="Apple-converted-space">  </span>言</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>一、教学目的</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>本讲主要介绍了C语言的特点、基本结构、基本输入输出语句和C程序的编辑、编译、运行方法，要求了解C语言的特点，掌握C程序的基本结构，掌握输入输出函数scanf（）和printf（）的基本使用方法，熟悉C程序的编辑、编译、调试和运行过程。</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>二、知识要点</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>1.C语言的特点</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>（1）丰富的数据类型</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>（2）结构化的控制语句</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>（3）高效率的目标代码</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>（4）可移植性好</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>2.C语言的基本结构</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>（1）由一个主函数main（）或一个主函数及其它函数组成</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>（2）每个函数用</span><span class="s3">{</span><span class="s2"> }括起来</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>（3）每个语句后加</span><span class="s3">“</span><span class="s2">；</span><span class="s3">”<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>3.库函数printf（）的使用</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>（1）函数printf（）的功能和使用格式</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>（2）常用转义字符的使用</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>（3）常用格式符的意义和使用</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>4.库函数scanf（）的使用</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>（1）函数scanf（）的功能和使用格式</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>（2）格式控制与输入数据格式的关系</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>（3）地址表列的使用</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>5.C程序开发过程</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>（1）编辑、编译、连接和执行</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>（2）源程序、目标程序、可执行程序</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>三、边用边学</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span></span><span class="s3">§</span><span class="s2">1.1<span class="Apple-converted-space">  </span>C语言简史</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>C语言是由D.M.Ritchie于1972年在B语言的基础上设计的，主要用于编写UNIX操作系统的。1977年出现了可移植的C语言编译程序，使得用C语言编写的UNIX系统可以在各种计算机上使用。随着UNIX的广泛应用，C语言得到了普及和推广，并最终独立于UNIX而成为世界上应用最广泛的计算机语言之一。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>1983年美国国家标准化协会（ANSI）制订了C语言标准，即ANSI C。目前流行的各种版本的C语言都是以它为基础的，如Turbo C，Microsoft C，Quick C等。</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span></span><span class="s3">§</span><span class="s2">1.2<span class="Apple-converted-space">  </span>C语言的特点</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>一、丰富的数据类型</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>C具有整型、浮点型、字符型、数组类型、指针类型、结构体类型、共用体类型等多种数据类型。特别是C的指针类型，功能强大、灵活方便。</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>二、结构化的控制语句</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>C语言的控制结构语句符合结构化程序设计要求，并且用函数作为程序模块，使得程序结构清晰、可读性好、易于调试。</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>三、高效率的目标代码</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>C语言允许直接访问物理地址、直接对硬件操作，提供对字节、位、内存和寄存器操作，可以调用或嵌入汇编语言代码，并且经过C编译程序生成的目标代码质量高、执行效率高。</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>四、可移植性好</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>用C语言写的程序，基本上可以不加修改地用于各种计算机和操作系统上。</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span></span><span class="s3">§</span><span class="s2">1.3<span class="Apple-converted-space">  </span>C程序的基本结构</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>一、C程序的基本结构讲解</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>例1 在屏幕上显示:Hello !<br>
+<span class="Apple-converted-space"> </span>#include &lt;stdio.h&gt;<br>
+<span class="Apple-converted-space"> </span>main（）</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space">   </span></span><span class="s3">{<br>
+</span><span class="s2"><span class="Apple-converted-space">    </span>printf（</span><span class="s3">“</span><span class="s2">Hello!\n”）;<br>
+<span class="Apple-converted-space">   </span></span><span class="s3">}<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>输出:Hello!<br>
+<span class="Apple-converted-space"> </span>例2 求两数之和</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>#include &lt;stdio.h&gt;<br>
+<span class="Apple-converted-space"> </span>main（）</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space">   </span></span><span class="s3">{</span><span class="s2"> int a,b,sum;<br>
+<span class="Apple-converted-space">  </span>a=123; b=456;<br>
+<span class="Apple-converted-space">  </span>sum=a+b;<br>
+<span class="Apple-converted-space">   </span>printf(“sum is %d\n”,sum);<br>
+<span class="Apple-converted-space">   </span></span><span class="s3">}<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>输出:sum<span class="Apple-converted-space">  </span>is<span class="Apple-converted-space">  </span>579<br>
+<span class="Apple-converted-space"> </span>例3 输入 a、b两个数，输出其中最大值。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>#include &lt;stdio.h&gt;<br>
+<span class="Apple-converted-space"> </span>float max（float x,float y）</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space">   </span></span><span class="s3">{</span><span class="s2"> float z;<br>
+<span class="Apple-converted-space">  </span>if （x&gt;y） z=x;<br>
+<span class="Apple-converted-space">  </span>else z=y;<br>
+<span class="Apple-converted-space">  </span>return z;}<br>
+<span class="Apple-converted-space">   </span>main（）</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space">   </span></span><span class="s3">{</span><span class="s2"> float a,b,c;<br>
+<span class="Apple-converted-space">  </span>scanf（</span><span class="s3">“</span><span class="s2">%f,%f”,&amp;a,&amp;b）;<br>
+<span class="Apple-converted-space">  </span>c=max（a,b）;<br>
+<span class="Apple-converted-space">  </span>printf（</span><span class="s3">“</span><span class="s2">%f,%f,the maxis%f\n”,a,b,c）;<br>
+<span class="Apple-converted-space">   </span></span><span class="s3">}<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>输入：23,56<br>
+<span class="Apple-converted-space"> </span>输出：23.000000,56.000000,maxis56.000000<br>
+<br>
+<span class="Apple-converted-space"> </span>二、C程序的基本结构</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>1.由一个主函数main（），或一个主函数及其它函数组成</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>2.每个函数用</span><span class="s3">{</span><span class="s2"> }括起来</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>3.每个语句后加；</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>三、C语言的三类函数及其采用的意义</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>1.C程序是由一个主函数main（）或一个主函数及其它函数组成。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>C程序由函数构成，使用函数可以简化了主函数以及实现模块化程序设计。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>C语言的函数可以分为三类：</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>第一类：主函数，名为main（）。每个程序中只能有一个、也必须有一个主函数。无论主函数在什么位置，C程序总是从主函数开始执行。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>第二类：用户自定义函数，可有可无，数目不限。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>第三类：C语言提供的库函数，例如输出函数printf（）和输入函数scanf（）</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>2.每个函数的内容用大括号</span><span class="s3">“{</span><span class="s2"> }”括起来。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>3.每个语句后加</span><span class="s3">“</span><span class="s2">；</span><span class="s3">”</span><span class="s2">。</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span></span><span class="s3">§</span><span class="s2">1.4<span class="Apple-converted-space">  </span>库函数printf（）和scanf（）的使用</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>printf（）和scanf（）函数是C语言中两个最基本的库函数，存在于Turbo C 所在目录的子目录include中的stdio.h头文件内，使用时应该在源程序中加入#include &lt;stdio.h&gt;（Turbo C 2.0可以缺省）。</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>一、函数printf( )<br>
+<span class="Apple-converted-space"> </span>功能：通过标准输出设备（如屏幕）输出一组数据。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>格式：printf（格式控制，输出表列）</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>1.“格式控制</span><span class="s3">”</span><span class="s2">是用双引号括起来的部分，由要输出的文字和数据格式说明组成。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>例:printf（</span><span class="s3">“</span><span class="s2">Hello !”）; <br>
+<span class="Apple-converted-space"> </span>printf（</span><span class="s3">“</span><span class="s2">%f,%f,the max is %f \n”,a,b,c）;<br>
+<span class="Apple-converted-space"> </span>要输出的文字除了可以使用字母、数字、空格和一些数学符号以外，还可以使用一些转义字符表示特殊的含义（如</span><span class="s3">“\</span><span class="s2">n”）。转义字符功能见表1-1。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space">            </span>表1.1<span class="Apple-converted-space">  </span>常用转义字符</span></p>
+        <table width="367.5" cellspacing="0" cellpadding="0" class="t2">
+          <tbody>
+            <tr>
+              <td valign="top" class="td3">
+                <p class="p4"><span class="s2">转义字符</span></p>
+              </td>
+              <td valign="top" class="td4">
+                <p class="p5"><span class="s2"></span><br></p>
+                <p class="p4"><span class="s2">功<span class="Apple-converted-space">  </span>能</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p5"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <table width="367.5" cellspacing="0" cellpadding="0" class="t2">
+          <tbody>
+            <tr>
+              <td valign="top" class="td3">
+                <p class="p4"><span class="s3">\</span><span class="s2">n</span></p>
+              </td>
+              <td valign="top" class="td4">
+                <p class="p7"><span class="s2"></span><br></p>
+                <p class="p3"><span class="s2">回车换行符，光标移到下一行行首</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p2"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <table width="367.5" cellspacing="0" cellpadding="0" class="t2">
+          <tbody>
+            <tr>
+              <td valign="top" class="td3">
+                <p class="p4"><span class="s3">\</span><span class="s2">r</span></p>
+              </td>
+              <td valign="top" class="td4">
+                <p class="p7"><span class="s2"></span><br></p>
+                <p class="p3"><span class="s2">回车不换行，光标移动到本行行首</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p2"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <table width="367.5" cellspacing="0" cellpadding="0" class="t2">
+          <tbody>
+            <tr>
+              <td valign="top" class="td3">
+                <p class="p4"><span class="s3">\</span><span class="s2">t</span></p>
+              </td>
+              <td valign="top" class="td4">
+                <p class="p7"><span class="s2"></span><br></p>
+                <p class="p3"><span class="s2">横向跳格(8位为一格，光标跳到下一格起始位置，如第9或17位等)</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p8"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <table width="367.5" cellspacing="0" cellpadding="0" class="t2">
+          <tbody>
+            <tr>
+              <td valign="top" class="td3">
+                <p class="p4"><span class="s3">\</span><span class="s2">b</span></p>
+              </td>
+              <td valign="top" class="td4">
+                <p class="p7"><span class="s2"></span><br></p>
+                <p class="p3"><span class="s2">退一格，光标往左移动一格</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p2"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <table width="367.5" cellspacing="0" cellpadding="0" class="t2">
+          <tbody>
+            <tr>
+              <td valign="top" class="td3">
+                <p class="p4"><span class="s3">\</span><span class="s2">f</span></p>
+              </td>
+              <td valign="top" class="td4">
+                <p class="p7"><span class="s2"></span><br></p>
+                <p class="p3"><span class="s2">走纸换页</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p2"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <table width="367.5" cellspacing="0" cellpadding="0" class="t2">
+          <tbody>
+            <tr>
+              <td valign="top" class="td3">
+                <p class="p9"><span class="s2">\\</span></p>
+              </td>
+              <td valign="top" class="td4">
+                <p class="p5"><span class="s2"></span><br></p>
+                <p class="p3"><span class="s2">用于输出反斜杠字符</span><span class="s3">“\”</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p2"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <table width="367.5" cellspacing="0" cellpadding="0" class="t2">
+          <tbody>
+            <tr>
+              <td valign="top" class="td3">
+                <p class="p4"><span class="s3">\</span><span class="s2">'</span></p>
+              </td>
+              <td valign="top" class="td4">
+                <p class="p7"><span class="s2"></span><br></p>
+                <p class="p3"><span class="s2">用于输出单引号字符</span><span class="s3">“</span><span class="s2">' ”</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p8"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <table width="367.5" cellspacing="0" cellpadding="0" class="t2">
+          <tbody>
+            <tr>
+              <td valign="top" class="td3">
+                <p class="p9"><span class="s2">\”</span></p>
+              </td>
+              <td valign="top" class="td4">
+                <p class="p5"><span class="s2"></span><br></p>
+                <p class="p3"><span class="s2">用于输出双引号字符</span><span class="s3">“””</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p2"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <table width="367.5" cellspacing="0" cellpadding="0" class="t2">
+          <tbody>
+            <tr>
+              <td valign="top" class="td3">
+                <p class="p4"><span class="s3">\</span><span class="s2">ddd</span></p>
+              </td>
+              <td valign="top" class="td4">
+                <p class="p7"><span class="s2"></span><br></p>
+                <p class="p3"><span class="s2">三位八进制数ddd对应的ASCII码字符</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p2"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <table width="367.5" cellspacing="0" cellpadding="0" class="t2">
+          <tbody>
+            <tr>
+              <td valign="top" class="td3">
+                <p class="p4"><span class="s3">\</span><span class="s2">xhh</span></p>
+              </td>
+              <td valign="top" class="td4">
+                <p class="p7"><span class="s2"></span><br></p>
+                <p class="p3"><span class="s2">两位十六进制数hh对应的ASCII码字符</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p2"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>#include &lt;stdio.h&gt;<br>
+<span class="Apple-converted-space"> </span>main（）</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span></span><span class="s3">{<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>printf（</span><span class="s3">“</span><span class="s2">123456789012345678901234567890\n”）;<br>
+<span class="Apple-converted-space"> </span>printf（</span><span class="s3">“</span><span class="s2">123\t456\n"）;<br>
+<span class="Apple-converted-space"> </span>printf（</span><span class="s3">“</span><span class="s2">12345\b123\r9\n”）</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span></span><span class="s3">}<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>运行结果:123456789012345678901234567890<br>
+<span class="Apple-converted-space">       </span>123<span class="Apple-converted-space">    </span>456<br>
+<span class="Apple-converted-space">       </span>9234123 <br>
+<span class="Apple-converted-space"> </span>举一反三：写出下列输出结果</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>printf（</span><span class="s3">“\</span><span class="s2">tfirst\b\b\bsh\\\r\'No.1\'”）;<br>
+<span class="Apple-converted-space"> </span>数据格式说明由</span><span class="s3">“</span><span class="s2">%”开头，形式为 %&lt;数据输出宽度说明&gt;&lt;格式符&gt;，数据格式说明用在需要输出变量或运算数值结果的时候，它的个数与输出表列的个数一一对应。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>数据宽度说明中如果实际数据小于宽度，则根据宽度是否大于零而左补空格或右补空格。如果实际数据大于宽度，按实际位数输出。如果缺省宽度说明，则按实际宽度输出（实数位数按照格式符默认位数输出）。常用格式符见表1-2。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space">            </span>表1.2<span class="Apple-converted-space">  </span>常用格式符</span></p>
+        <table width="334.5" cellspacing="0" cellpadding="0" class="t3">
+          <tbody>
+            <tr>
+              <td valign="top" class="td5">
+                <p class="p4"><span class="s2">格式符</span></p>
+              </td>
+              <td valign="top" class="td6">
+                <p class="p5"><span class="s2"></span><br></p>
+                <p class="p4"><span class="s2">功<span class="Apple-converted-space">  </span>能</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p5"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <table width="334.5" cellspacing="0" cellpadding="0" class="t3">
+          <tbody>
+            <tr>
+              <td valign="top" class="td5">
+                <p class="p4"><span class="s2">d</span></p>
+              </td>
+              <td valign="top" class="td6">
+                <p class="p7"><span class="s2"></span><br></p>
+                <p class="p3"><span class="s2">以带符号的十进制形式输出整数（整数不输出正号）</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p2"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <table width="334.5" cellspacing="0" cellpadding="0" class="t3">
+          <tbody>
+            <tr>
+              <td valign="top" class="td5">
+                <p class="p4"><span class="s2">o</span></p>
+              </td>
+              <td valign="top" class="td6">
+                <p class="p7"><span class="s2"></span><br></p>
+                <p class="p3"><span class="s2">以不带符号的八进制形式输出整数</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p2"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <table width="334.5" cellspacing="0" cellpadding="0" class="t3">
+          <tbody>
+            <tr>
+              <td valign="top" class="td5">
+                <p class="p4"><span class="s2">x</span></p>
+              </td>
+              <td valign="top" class="td6">
+                <p class="p7"><span class="s2"></span><br></p>
+                <p class="p3"><span class="s2">以不带符号的十六进制形式输出整数</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p2"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <table width="334.5" cellspacing="0" cellpadding="0" class="t3">
+          <tbody>
+            <tr>
+              <td valign="top" class="td5">
+                <p class="p4"><span class="s2">u</span></p>
+              </td>
+              <td valign="top" class="td6">
+                <p class="p7"><span class="s2"></span><br></p>
+                <p class="p3"><span class="s2">以不带符号的十进制形式输出整数</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p2"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <table width="334.5" cellspacing="0" cellpadding="0" class="t3">
+          <tbody>
+            <tr>
+              <td valign="top" class="td5">
+                <p class="p4"><span class="s2">c</span></p>
+              </td>
+              <td valign="top" class="td6">
+                <p class="p7"><span class="s2"></span><br></p>
+                <p class="p3"><span class="s2">以字符形式输出一个字符</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p2"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <table width="334.5" cellspacing="0" cellpadding="0" class="t3">
+          <tbody>
+            <tr>
+              <td valign="top" class="td5">
+                <p class="p4"><span class="s2">s</span></p>
+              </td>
+              <td valign="top" class="td6">
+                <p class="p7"><span class="s2"></span><br></p>
+                <p class="p3"><span class="s2">输出一个或多个字符</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p2"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <table width="334.5" cellspacing="0" cellpadding="0" class="t3">
+          <tbody>
+            <tr>
+              <td valign="top" class="td5">
+                <p class="p4"><span class="s2">f</span></p>
+              </td>
+              <td valign="top" class="td6">
+                <p class="p7"><span class="s2"></span><br></p>
+                <p class="p3"><span class="s2">以小数形式输出单、双精度数，默认输出6位小数</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p2"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <table width="334.5" cellspacing="0" cellpadding="0" class="t3">
+          <tbody>
+            <tr>
+              <td valign="top" class="td5">
+                <p class="p4"><span class="s2">e</span></p>
+              </td>
+              <td valign="top" class="td6">
+                <p class="p7"><span class="s2"></span><br></p>
+                <p class="p3"><span class="s2">以标准指数形式输出单、双精度数，数字部分小数位数为6位</span></p>
+              </td>
+              <td valign="middle" class="td2">
+                <p class="p2"><span class="s2"></span><br></p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </td>
+    </tr>
+  </tbody>
+</table>
+<p class="p6"><br></p>
+<table width="522.4" cellspacing="0" cellpadding="0" class="t1">
+  <tbody>
+    <tr>
+      <td valign="middle" class="td2">
+        <p class="p3"><span class="s2"><span class="Apple-converted-space"> </span>#include &lt;stdio.h&gt;<br>
+<span class="Apple-converted-space"> </span>main（）</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span></span><span class="s3">{<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>printf（ “a=%4d,b=%-6.2f,c=%c,d=%s”,12,3.456,'A',”hello” ）;<br>
+<span class="Apple-converted-space"> </span></span><span class="s3">}<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>运行结果： a=12,b=3.46,c=A,d=hello<br>
+<span class="Apple-converted-space"> </span>举一反三：写出下列输出结果</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>printf（ “x=%d,y=%-6.2f,z=%2d”,2,8.999,300）;<br>
+<span class="Apple-converted-space"> </span>2.输出表列可以是变量、表达式或者是数值。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>输出表列的类型决定了</span><span class="s3">“</span><span class="s2">格式控制</span><span class="s3">”</span><span class="s2">中使用的</span><span class="s3">“</span><span class="s2">数据格式符</span><span class="s3">”</span><span class="s2">，其个数决定了</span><span class="s3">“</span><span class="s2">数据格式说明</span><span class="s3">”</span><span class="s2">的个数。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>如已知a=3，则语句</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>printf（ “%d+%d=%d”,a,12,a+12）;<br>
+<span class="Apple-converted-space">    </span>3+12=15<br>
+<br>
+<span class="Apple-converted-space"> </span>二、函数scanf( )<br>
+<span class="Apple-converted-space"> </span>功能：通过标准输入设备（如键盘）输入一组数据。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>格式：scanf（格式控制，地址表列）</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>格式控制同printf（）函数的格式控制。其中特别注意：如果格式控制中加入了格式符以外的其它字符，则通过键盘等输入设备输入数据时这些字符也要同样输入，如果格式符中无其它字符间隔，输入时可以用空格、回车或跳格键Tab。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>地址表列是由若干个地址组成的表列，变量的地址表示法是在变量前加上&amp;符（数组不用）。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>函数scanf（）是将输入设备输入的数据赋给地址表列中对应的变量。地址表列的个数和变量类型，决定了格式控制中格式符的个数和形式。</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span></span><span class="s3">§</span><span class="s2">1.5<span class="Apple-converted-space">  </span>C程序的开发过程</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>开发一个C程序，一般要经历编辑、编译、连接和运行四个步骤。</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>一、源文件的编辑</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>用户通过编辑器，将自己开发的C语言程序输入计算机的过程称为C程序源文件的编辑。编辑生成的文件以文本形式存储，扩展名为</span><span class="s3">“</span><span class="s2">.C”，也称为C的源程序。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>源程序文件以ASCII码形式存储，不含任何格式和样式，计算机不能直接执行。</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>二、编译</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>计算机把C的源程序翻译成计算机可以识别的二进制形式的目标代码文件，这个过程称为编译，由C的编译程序完成。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>C的编译程序在编译的同时，还对源程序的语法和程序的逻辑结构等进行检查。当发现错误时，将会列出错误的位置和种类，此时需要重新编辑修改源程序。如果编辑成功则生成目标文件，文件名同源程序文件名，扩展名为</span><span class="s3">“</span><span class="s2">.obj”。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>编译生成的目标文件，不包含程序运行所需要的库函数等，计算机仍然不能直接执行。</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>三、连接</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>连接程序以将目标程序和其它目标程序模块，以及系统提供的C库函数等进行连接生成可执行文件的过程，称为</span><span class="s3">“</span><span class="s2">连接</span><span class="s3">”</span><span class="s2">。连接生成的可执行文件的文件名同源程序文件名，扩展名为</span><span class="s3">“</span><span class="s2">.exe”。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>连接生成的可执行文件，计算机可以直接执行。</span><span class="s3"><br>
+<br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>四、运行</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>在DOS环境直接键入C程序的可执行文件名，或者在C的集成环境下选择</span><span class="s3">“</span><span class="s2">RUN”命令，以及在Windows的资源管理器内双击该可执行文件名，都可以获得运行结果。如果运行结果有误，需要重新编辑源程序，再进行编译、连接、运行，直到得到满意的运行结果。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>作业及上机练习学以致用</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>1.使用printf（）函数显示下列菜单：</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space">      </span>Menu<br>
+<span class="Apple-converted-space"> </span>========================================<br>
+<span class="Apple-converted-space"> </span>1. Input the students' names and scores<br>
+<span class="Apple-converted-space"> </span>2. Search scores of some students<br>
+<span class="Apple-converted-space"> </span>3. Modify scores of some students<br>
+<span class="Apple-converted-space"> </span>4. List all students' scores<br>
+<span class="Apple-converted-space"> </span>5. Quit the system<br>
+<span class="Apple-converted-space"> </span>========================================<br>
+<span class="Apple-converted-space"> </span>Please input your choise （1-5）:<br>
+<span class="Apple-converted-space"> </span>2.参照例1.7和例1.8，选择一种方法编写一个程序，实现输入六个数输出最小数。</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space"> </span>3.编写一个程序，从键盘上输入华氏温度，屏幕显示对应的摄氏温度。华氏温度和摄氏温度的转换公式为：</span><span class="s3"><br>
+</span><span class="s2"><span class="Apple-converted-space">    </span>c=（f-32）/1.8</span></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</body>
+</html>

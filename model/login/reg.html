@@ -1,0 +1,177 @@
+﻿<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8"/ >
+ <title>注册</title>
+ <link rel="stylesheet" type="text/css" href="../../Shanbei/stylesheets/style.css" >
+ <script src="../../Shanbei/script/jquery-1.9.1.min.js" type="text/javascript"></script>
+ 
+ <script type="text/javascript">
+
+$(function(){
+	$('form :input').blur(function(){
+		var $parent = $(this).parent();
+		//验证邮箱
+		if($(this).is('#id_email')){
+			if(this.value==''||
+				(this.value!='' 
+					&& !/.+@.+\.[a-zA-z]{2,4}$/.test(this.value)
+					)
+					){
+				var errorMsg = '请输入正确的邮箱地址';
+				$parent.find('.infor').html(errorMsg); 
+			}else{
+				var okMsg = '输入正确';
+				$parent.find('.infor').html(okMsg);
+			}
+		}
+		//验证密码一致性
+	if($(this).is('#id_password2')){
+            if(this.value == '' || this.value != $('#id_password1').val()){
+                var errorMsg = '密码不一致';
+                $parent.find('.infor').html(errorMsg);
+                }else{
+                    var okMsg = '输入正确';
+                    $parent.find('.infor').html(okMsg);
+                    }
+            }
+ 	//验证用户名是否为空
+	if($(this).is('#id_username')){
+            if(this.value == '' ){
+                var errorMsg = '用户名不能为空';
+                $parent.find('.infor').html(errorMsg);
+                }else{
+                    var okMsg = '';
+                    $parent.find('.infor').html(okMsg);
+                    }
+            }
+
+	}).focus(function(){
+		$(this).triggerHandler('blur');
+	});
+	
+	
+	//验证表单并提示
+	$('#button-submit').click(function(){
+            $('form .required:input').trigger('blur');
+            var username = $('#id_username').val();
+            var passWord1 = $('#id_password1').val();
+            var passWord2 = $('#id_password2').val();
+            //var formNum = $('#username').val();
+            var formNum1 = $('#id_email').val();
+            //var numError = $('form .onError').length;
+            if(username == '' || passWord2 == '' || passWord1 != passWord2 || (formNum1!='' && !/.+@.+\.[a-zA-z]{2,4}$/.test(formNum1))){
+                return false;
+            }
+            //alert('已提交！');
+            $.ajax({
+            	url: "reg.php",
+            	data: $('form').serializeArray(),
+            	type: "POST",
+            	dataType: "json",
+            	success: function(mdata){
+            		if(mdata.err_code == "0"){
+            			location.href=mdata.data;
+            		} else {
+            			alert(mdata.data);
+            		}
+            	},
+            	error: function(XMLHttpRequest, textStatus, errorThrown) {
+                        alert("status:" + XMLHttpRequest.status + 
+                         " readyState:" + XMLHttpRequest.readyState + 
+                         " textStatus:" + textStatus);
+               },
+               beforeSend: function() {
+               	//	alert("begin");
+               },
+               complete: function() {
+               	//	alert("finished");
+               }
+            });
+     });
+
+
+})
+	
+	
+</script>	
+ <style>
+	
+        body{
+            margin-top:0;
+            padding-top:0px;
+        }
+        .navbar.navbar-fixed-top {
+            display:none;
+        }
+ </style>
+</head>
+
+<body>
+<div class="container main-body">
+	<div id="csrftoken">
+		<input type="hidden" name="csrfmiddlewaretoken" value="bb77fadf50431e346d4263a9c877abef">
+	</div>
+</div>
+<div id="container">
+	<div id="page-head-right">
+		<div id="main-login" class="pull-right">
+			已有账号？
+			<a id="login" class="twin-btn-left" name="login" href="login.html">
+				<span>登录</span>
+			</a>
+
+		</div>
+	</div>
+
+</div>
+
+
+<div id="register-body">
+<div id="blue-background">
+<div class="register-box registration">
+    <div class="register-box-inner">
+		<br/>
+        <h1>注册</h1>
+        <hr>
+        <!-- <form action="reg.php" method="POST"> -->
+<form action="" method="post">
+        <div style='display:none'><input type='hidden' name='csrfmiddlewaretoken' value='bb77fadf50431e346d4263a9c877abef' />
+	</div>
+    <ul>
+		
+		 <li>
+		 	<label for="id_username">用户名:</label> 
+		 	<input id="id_username" type="text" class="required" name="username" maxlength="30" />
+		 	<span class="infor"></span> 
+
+		 </li>
+		
+		<li><label for="id_email">Email 地址:</label>
+			<input id="id_email" type="text" class="required" name="email" maxlength="75" /> <!-- <span class="helptext">你会收到一封验证邮件</span> -->
+			<span class="infor"></span>
+		</li>
+	<br/>
+
+<li><label for="id_password1">密码:</label> <input id="id_password1" type="password" class="required" name="password1" /></li>
+<li><label for="id_password2">密码(重复):</label> <input id="id_password2" type="password" class="required" name="password2" /><span class="infor"></span></li>
+
+            </ul>
+			<br/>
+            <div class="login-buttons">
+                        <button type="button" class="btn btn-large btn-success" id="button-submit" >注册</button>
+                        <input id="error-msg" type="hidden" value="Email地址很少以www开头，你确认么？"/>
+                        <input id="error-domain" type="hidden" value="你的邮件地址可能有误，也许无法收到验证邮件"/>
+            </div>
+            </div>
+
+
+        </form>
+    </div>
+</div>
+</div>
+</div>
+
+
+
+
+</body>

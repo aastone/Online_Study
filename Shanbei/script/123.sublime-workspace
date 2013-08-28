@@ -1,0 +1,576 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"h4	Tag"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"con",
+				"console.	.assert(assertion, message)"
+			],
+			[
+				"drop",
+				"dropdown"
+			],
+			[
+				"emai",
+				"email1"
+			],
+			[
+				"us",
+				"username1"
+			],
+			[
+				"pa",
+				"password11"
+			],
+			[
+				"session_d",
+				"session_destroy"
+			],
+			[
+				"session_un",
+				"session_unset"
+			],
+			[
+				"pass",
+				"password1"
+			],
+			[
+				"he",
+				"helptext"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"va",
+				"var"
+			],
+			[
+				"v",
+				"value"
+			],
+			[
+				"id",
+				"id_email"
+			],
+			[
+				"if",
+				"ife	if … else"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"ma",
+				"meta	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/D/xampp/htdocs/new/OnlineStudy/protected/models/UserModel.php",
+			"settings":
+			{
+				"buffer_size": 3978,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/xampp/htdocs/new/OnlineStudy/index.php",
+			"settings":
+			{
+				"buffer_size": 730,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/D/xampp/htdocs/new/OnlineStudy/protected/models/CourseModel.php",
+			"settings":
+			{
+				"buffer_size": 3095,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/xampp/htdocs/new/OnlineStudy/protected/models/AnswerModel.php",
+			"settings":
+			{
+				"buffer_size": 2592,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/xampp/htdocs/new/OnlineStudy/protected/models/QuizModel.php",
+			"settings":
+			{
+				"buffer_size": 2425,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/xampp/htdocs/new/OnlineStudy/protected/models/QuestionModel.php",
+			"settings":
+			{
+				"buffer_size": 3301,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/xampp/htdocs/new/OnlineStudy/protected/models/ResultModel.php",
+			"settings":
+			{
+				"buffer_size": 2751,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/D/xampp/htdocs/new/OnlineStudy/protected/models/StudyModel.php",
+			"settings":
+			{
+				"buffer_size": 2930,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Enable Package"
+			],
+			[
+				"ena",
+				"Package Control: Enable Package"
+			],
+			[
+				"",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 528.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/xampp/htdocs/1-project-shanbei/model/profile.php",
+		"/D/xampp/htdocs/1-project-shanbei/model/header.php",
+		"/D/xampp/htdocs/1-project-shanbei/model/result.php",
+		"/D/xampp/htdocs/1-project-shanbei/model/learncss.php",
+		"/D/xampp/htdocs/1-project-shanbei/model/learnphp.php",
+		"/D/xampp/htdocs/new/OnlineStudy/protected/config/main.php",
+		"/D/xampp/htdocs/new/OnlineStudy/protected/models/AnswerModel.php",
+		"/D/xampp/htdocs/1-project-shanbei/model/test.php",
+		"/D/xampp/htdocs/new/OnlineStudy/protected/models/StudyModel.php",
+		"/D/xampp/htdocs/new/OnlineStudy/protected/models/ResultModel.php",
+		"/D/xampp/htdocs/1-project-shanbei/Shanbei/main/profile.php",
+		"/D/xampp/htdocs/1-project-shanbei/Shanbei/script/jquery-1.9.1.min.js",
+		"/D/xampp/htdocs/1-project-shanbei/Shanbei/reg.php",
+		"/D/xampp/htdocs/Sample/headfirst/ch07/initial/mismatch/connectvars.php",
+		"/D/xampp/htdocs/Symfony/app/AppKernel.php",
+		"/D/xampp/htdocs/Symfony/web/app.php",
+		"/D/xampp/htdocs/CodeIgniter_2.1.3/application/config/config.php",
+		"/D/xampp/htdocs/CodeIgniter_2.1.3/application/config/database.php",
+		"/D/xampp/htdocs/yii-1.1.13.e9e4a0/requirements/index.php",
+		"/D/xampp/htdocs/1-project-shanbei/Shanbei/infor_1.php",
+		"/D/xampp/htdocs/1-project-shanbei/Shanbei/main/test.php",
+		"/C/Users/Stone/AppData/Local/Temp/360zip$Temp/360$0/md5.js",
+		"/D/xampp/htdocs/1-project-shanbei/Shanbei/style.css",
+		"/D/xampp/htdocs/1-project-shanbei/Shanbei/reg.html",
+		"/C/Users/Stone/AppData/Local/Microsoft/Windows/Temporary Internet Files/Content.IE5/M2TSDOL3/reg.php",
+		"/D/xampp/htdocs/1-project-shanbei/Shanbei/jquery-login-sample.html",
+		"/D/xampp/htdocs/1-project-shanbei/Shanbei/button_login.png",
+		"/D/xampp/htdocs/1-project-shanbei/Shanbei/script/123.sublime-project",
+		"/C/Users/Stone/AppData/Roaming/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/Stone/AppData/Roaming/Sublime Text 2/Packages/Default/Default (Windows).sublime-keymap"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"homepage",
+			"helptext",
+			"infor",
+			"in",
+			"inf",
+			"info",
+			"infor",
+			"post",
+			"id_email",
+			"sendbutton-submit",
+			"triggerhandler"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": true,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/D/xampp/htdocs/new/OnlineStudy/protected/models/UserModel.php",
+					"settings":
+					{
+						"buffer_size": 3978,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								478,
+								478
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/D/xampp/htdocs/new/OnlineStudy/index.php",
+					"settings":
+					{
+						"buffer_size": 730,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								730,
+								730
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/D/xampp/htdocs/new/OnlineStudy/protected/models/CourseModel.php",
+					"settings":
+					{
+						"buffer_size": 3095,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								301,
+								291
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 900.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/D/xampp/htdocs/new/OnlineStudy/protected/models/AnswerModel.php",
+					"settings":
+					{
+						"buffer_size": 2592,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								186,
+								186
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/D/xampp/htdocs/new/OnlineStudy/protected/models/QuizModel.php",
+					"settings":
+					{
+						"buffer_size": 2425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 855.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/D/xampp/htdocs/new/OnlineStudy/protected/models/QuestionModel.php",
+					"settings":
+					{
+						"buffer_size": 3301,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/D/xampp/htdocs/new/OnlineStudy/protected/models/ResultModel.php",
+					"settings":
+					{
+						"buffer_size": 2751,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/D/xampp/htdocs/new/OnlineStudy/protected/models/StudyModel.php",
+					"settings":
+					{
+						"buffer_size": 2930,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}

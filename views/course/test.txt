@@ -1,0 +1,28 @@
+Welcome to PHP!
+中文怎么破
+tag: <a href="">PHP</a> ,<a href=""> basis</a>
+
+PHP is the world's most popular server-side scripting language. Interested in processing form data from your website, creating HTML on the fly, handling cookies, or talking to a database? PHP's got you covered.
+
+Courses are created by the community. We're launching PHP as a work-in-progress and we want you to help create the future of PHP instruction for people all over the world.
+
+Meet PHP
+<h1>
+PHP in Action
+</h1>
+PHP is a programming language that can do all sorts of things: evaluate form data sent from a browser, build custom web content to serve the browser, talk to a database, and even send and receive cookies .
+
+The PHP code is written in the --<--?php echo"<";> ?php ?> tags. 
+<script>
+printf("<?php ?>");
+</script>
+--<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<--
+
+PHP Syntax
+
+Echo
+You can think of echo as a PHP command: it tells PHP to echo back the information that follows. If you type
+
+<?php echo "Hooray!"; ?>
+
+PHP will dutifully print out "Hooray!"

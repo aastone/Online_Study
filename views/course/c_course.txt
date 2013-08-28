@@ -1,0 +1,7 @@
+Welcome to PHP!
+
+tag: PHP, introduction
+
+PHP is the world's most popular server-side scripting language. Interested in processing form data from your website, creating HTML on the fly, handling cookies, or talking to a database? PHP's got you covered.
+
+Courses are created by the community. We're launching PHP as a work-in-progress and we want you to help create the future of PHP instruction for people all over the world.

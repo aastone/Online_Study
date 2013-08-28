@@ -1,0 +1,162 @@
+﻿<html>
+<head>
+ <title>Home Page</title>
+ <link rel="stylesheet" type="text/css" href="../../Shanbei/stylesheets/style.css" >
+  <script src="../../Shanbei/script/jquery-1.9.1.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+
+$(function(){
+	$('form :input').blur(function(){
+		var $parent = $(this).parent();
+		//验证邮箱
+		  
+		if($(this).is('#id_email')){
+			if(this.value==''||
+				(this.value!='' 
+					&& !/.+@.+\.[a-zA-z]{2,4}$/.test(this.value)
+					)
+					){
+				var errorMsg = '请输入正确的邮箱地址';
+				$parent.find('.infor').html(errorMsg); 
+			}else{
+				//var okMsg = '输入正确';
+				$parent.find('.infor').html('');
+			}
+		}
+
+	}).focus(function(){
+		$(this).triggerHandler('blur');
+	});
+	
+	
+	//验证表单并提示
+	$('#button-submit').click(function(){
+            $('form .required:input').trigger('blur');
+            var passWord1 = $('#id_password1').val();       
+            var formNum1 = $('#id_email').val();
+            //var numError = $('form .onError').length;
+            if(passWord1 == '' || (formNum1!='' && !/.+@.+\.[a-zA-z]{2,4}$/.test(formNum1))){
+                return false;
+            }
+            //alert('已提交！');
+            $.ajax({
+            	url: "login.php",
+            	data: $('form').serializeArray(),
+            	type: "POST",
+            	dataType: "json",
+            	success: function(mdata){
+            		if(mdata.err_code == "0"){
+            			location.href=mdata.data;
+            		} else {
+            			alert(mdata.data);
+            		}
+            	},
+            	error: function(XMLHttpRequest, textStatus, errorThrown) {
+                        alert("status:" + XMLHttpRequest.status + 
+                         " readyState:" + XMLHttpRequest.readyState + 
+                         " textStatus:" + textStatus);
+               },
+               beforeSend: function() {
+               	//	alert("begin");
+               },
+               complete: function() {
+               	//	alert("finished");
+               }
+            });
+     });
+
+
+})
+	
+	
+</script>
+ <style>
+	
+        body{
+            margin-top:0;
+            padding-top:0px;
+        }
+        .navbar.navbar-fixed-top {
+            display:none;
+        }
+ </style>
+</head>
+
+<body>
+<div class="container main-body">
+	<div id="csrftoken">
+		<input type="hidden" name="csrfmiddlewaretoken" value="bb77fadf50431e346d4263a9c877abef">
+	</div>
+</div>
+<div id="container">
+	<div id="page-head-right">
+		<div id="main-login" class="pull-right">
+			没有账号？
+	
+			<a id='register' class="twin-btn-right" name="register" href="reg.html">
+				<span>注册</span>
+			</a>
+		</div>
+	</div>
+
+</div>
+<div id="register-body">
+<div id="blue-background">
+<div class="register-box login">
+    <div class="register-box-inner">
+        
+        <h1>登录
+			<!--
+            <small>
+        
+            <p class="align-center">如果忘记用户名, 请<a href="/accounts/password/reset/">点击取回</a></p>
+        
+            </small>
+			-->
+        </h1>
+        <hr>
+        <form action="login.php" method="post" id="loginform"> 
+        	<div style='display:none'>
+        		<input type='hidden' name='csrfmiddlewaretoken' value='bb77fadf50431e346d4263a9c877abef' />
+    		</div>
+            <ul>
+                <li>
+                	<label for="id_email">邮箱:</label> 
+                	<input id="id_email" type="text" class="required" name="email" maxlength="75" />
+                	<span class="infor"></span>
+                </li>
+				<li>
+					<label for="id_password">密码:</label> 
+					<input type="password" name="password1" id="id_password" />
+				</li>
+            </ul>
+			<!--
+            <div class="reset-password">
+                <a href="/accounts/password/reset/">重设密码</a>
+            </div>
+			-->
+			<br/>
+            <div class="clear"></div>
+            <div class="login-buttons">
+                <button type="button"  class="btn btn-large btn-success"  id="button-submit" name="login">登录</button>
+            </div>
+            
+            </div>
+
+
+                
+            <input type="hidden" value="home" name="continue"/>
+            <input type="hidden" value="1" name="u"/>
+            <input type="hidden" style="width: 18.5em;" class="textfield" name="next" id="redirect" value=""/>
+        </form>
+        <p>
+        </p>
+        
+    </div>
+</div>
+
+</div>
+</div>
+
+
+</body>
